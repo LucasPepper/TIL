@@ -13,14 +13,14 @@ _2 TILs and counting..._
 
 ### Categories
 
-* [Data science](#data science)
+* [Data_science](#data_science)
 * [Java](#java)
 
 ---
 
-### Data science
+### Data_science
 
-- [# Overfitting](data science/overfit.md)
+- [# Overfitting](data_science/overfit.md)
 
 ### Java
 
