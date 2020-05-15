@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_2 TILs and counting..._
+_3 TILs and counting..._
 
 ---
 
@@ -20,6 +20,7 @@ _2 TILs and counting..._
 
 ### Data_science
 
+- [# Maturação de Dados](data_science/maturação_de_dados.md)
 - [# Overfitting](data_science/overfit.md)
 
 ### Java
