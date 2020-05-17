@@ -13,11 +13,15 @@ _5 TILs and counting..._
 
 ### Categories
 
+* [Md](#MD)
 * [Data_science](#data_science)
 * [Java](#java)
-* [Md](#md)
 
 ---
+
+### Md
+
+- [Tips for Formatting MD](MD/Formatting Markdown.md)
 
 ### Data_science
 
@@ -28,10 +32,6 @@ _5 TILs and counting..._
 ### Java
 
 - [# Java Abstract Classes and Methods](java/abstract.md)
-
-### Md
-
-- [Tips for Formatting MD](md/Formatting Markdown.md)
 
 ## Usage
 
