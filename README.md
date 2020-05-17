@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_3 TILs and counting..._
+_5 TILs and counting..._
 
 ---
 
@@ -15,6 +15,7 @@ _3 TILs and counting..._
 
 * [Data_science](#data_science)
 * [Java](#java)
+* [Md](#md)
 
 ---
 
@@ -22,10 +23,15 @@ _3 TILs and counting..._
 
 - [# Maturação de Dados](data_science/maturação_de_dados.md)
 - [# Overfitting](data_science/overfit.md)
+- [MatPlotLib: Scatter Plot](data_science/mlp_scatter_plot.md)
 
 ### Java
 
 - [# Java Abstract Classes and Methods](java/abstract.md)
+
+### Md
+
+- [Tips for Formatting MD](md/Formatting Markdown.md)
 
 ## Usage
 
