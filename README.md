@@ -21,7 +21,7 @@ _5 TILs and counting..._
 
 ### Md
 
-- [Tips for Formatting MD](MD/Formatting Markdown.md)
+- [Tips for Formatting MD](MD/formatting_markdown.md)
 
 ### Data_science
 
