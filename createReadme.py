@@ -39,7 +39,7 @@ it from others.
 ## Other TIL Collections
 
 * [jbranchaud/til](https://github.com/jbranchaud/til) who claims to have stolen
-* [jima80525/til](https://github.com/jima80525/til)
+* [jima80525/til](https://github.com/jima80525/til) who made the createReadme script
 * [Today I Learned by Hashrocket](https://til.hashrocket.com)
 * [jwworth/til](https://github.com/jwworth/til)
 * [thoughtbot/til](https://github.com/thoughtbot/til)
@@ -48,8 +48,7 @@ it from others.
 
 &copy; 2020 Lucas Pimenta
 
-This repository is licensed under the MIT license. See `LICENSE` for
-details.'''
+'''
 
 
 def get_list_of_categories():
