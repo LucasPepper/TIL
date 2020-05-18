@@ -1,4 +1,4 @@
-## Maturação de Dados
+# Maturação de Dados
 
 Dado um caso em que estamos estudando fraudes (cartão de crédito, às vezes o cartão é clonado e o dono só percebe alguns meses depois) ou queremos determinar se um cliente entrará em uma base ativa (se ele fez uma compra nos últimos, digamos, 3 meses).
 

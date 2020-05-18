@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_5 TILs and counting..._
+_6 TILs and counting..._
 
 ---
 
@@ -16,6 +16,7 @@ _5 TILs and counting..._
 * [Md](#MD)
 * [Data_science](#data_science)
 * [Java](#java)
+* [Ohmyzsh](#ohmyzsh)
 
 ---
 
@@ -25,13 +26,17 @@ _5 TILs and counting..._
 
 ### Data_science
 
-- [# Maturação de Dados](data_science/maturação_de_dados.md)
-- [# Overfitting](data_science/overfit.md)
 - [MatPlotLib: Scatter Plot](data_science/mlp_scatter_plot.md)
+- [Maturação de Dados](data_science/maturação_de_dados.md)
+- [Overfitting](data_science/overfit.md)
 
 ### Java
 
-- [# Java Abstract Classes and Methods](java/abstract.md)
+- [Java Abstract Classes and Methods](java/abstract.md)
+
+### Ohmyzsh
+
+- [Customizing the Terminal using zsh](ohmyzsh/customizing_terminal.md)
 
 ## Usage
 

@@ -1,4 +1,4 @@
-## Overfitting
+# Overfitting
 
 The model fitted too much to the dataset, not necessarily learning the existing correlations between the independent and dependent variables.
 
