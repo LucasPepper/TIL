@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_6 TILs and counting..._
+_7 TILs and counting..._
 
 ---
 
@@ -17,6 +17,7 @@ _6 TILs and counting..._
 * [Data_science](#data_science)
 * [Java](#java)
 * [Ohmyzsh](#ohmyzsh)
+* [Pandas](#pandas)
 
 ---
 
@@ -37,6 +38,10 @@ _6 TILs and counting..._
 ### Ohmyzsh
 
 - [Customizing the Terminal using zsh](ohmyzsh/customizing_terminal.md)
+
+### Pandas
+
+- [Useful Description and Selection Methods in Pandas](pandas/useful_methods.md)
 
 ## Usage
 
