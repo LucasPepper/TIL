@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_7 TILs and counting..._
+_8 TILs and counting..._
 
 ---
 
@@ -33,6 +33,7 @@ _7 TILs and counting..._
 
 ### Java
 
+- [# Connection Factory](java/connection_factory.md)
 - [Java Abstract Classes and Methods](java/abstract.md)
 
 ### Ohmyzsh
