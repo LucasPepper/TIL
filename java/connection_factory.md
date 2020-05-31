@@ -1,4 +1,4 @@
-## Connection Factory
+# Connection Factory
 
 ```
 public class ConnectionFactory {

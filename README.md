@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_8 TILs and counting..._
+_9 TILs and counting..._
 
 ---
 
@@ -18,6 +18,7 @@ _8 TILs and counting..._
 * [Java](#java)
 * [Ohmyzsh](#ohmyzsh)
 * [Pandas](#pandas)
+* [Typescript](#typescript)
 
 ---
 
@@ -33,7 +34,7 @@ _8 TILs and counting..._
 
 ### Java
 
-- [# Connection Factory](java/connection_factory.md)
+- [Connection Factory](java/connection_factory.md)
 - [Java Abstract Classes and Methods](java/abstract.md)
 
 ### Ohmyzsh
@@ -43,6 +44,10 @@ _8 TILs and counting..._
 ### Pandas
 
 - [Useful Description and Selection Methods in Pandas](pandas/useful_methods.md)
+
+### Typescript
+
+- [Definition](typescript/definition.md)
 
 ## Usage
 
