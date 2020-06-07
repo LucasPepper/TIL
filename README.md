@@ -7,13 +7,14 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_9 TILs and counting..._
+_10 TILs and counting..._
 
 ---
 
 ### Categories
 
 * [Md](#MD)
+* [Clojure](#clojure)
 * [Data_science](#data_science)
 * [Java](#java)
 * [Ohmyzsh](#ohmyzsh)
@@ -25,6 +26,10 @@ _9 TILs and counting..._
 ### Md
 
 - [Tips for Formatting MD](MD/formatting_markdown.md)
+
+### Clojure
+
+- [Getting Started](clojure/getting_started.md)
 
 ### Data_science
 

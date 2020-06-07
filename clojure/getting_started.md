@@ -26,5 +26,12 @@ lein repl
 "Hello Clojure!"
 ```
 5) Search and install Calva extension or Clojure, Clojure-lint and Clojure Code
-[Source](https://medium.com/@chinnonsantos/clojure-no-visual-studio-code-vscode-com-nrepl-leiningen-linting-e-debug-397932305dd1)
+
+[Tutorial](https://medium.com/@chinnonsantos/clojure-no-visual-studio-code-vscode-com-nrepl-leiningen-linting-e-debug-397932305dd1)
+
+[Clojure Docs](https://clojuredocs.org/)
+
+[Clojure Exercises](https://4clojure.com)
+
+[Exercism - Learning Clojure](https://exercism.io/tracks/clojure/learning)
 
