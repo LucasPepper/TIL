@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_10 TILs and counting..._
+_11 TILs and counting..._
 
 ---
 
@@ -29,6 +29,7 @@ _10 TILs and counting..._
 
 ### Clojure
 
+- [4Clojure](clojure/4clojure_answers.md)
 - [Getting Started](clojure/getting_started.md)
 
 ### Data_science
