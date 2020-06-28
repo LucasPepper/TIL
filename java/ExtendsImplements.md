@@ -1,4 +1,6 @@
-# Extends
+# Extends vs Implements
+
+## Extends 
 Usa-se extends quando você deseja aplicar herança á sua classe.
 
 Quando falamos que a classe A estende a classe B, significa que A herda alguns (ou todos) métodos e atributos da classe B.

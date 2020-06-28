@@ -41,7 +41,7 @@ _14 TILs and counting..._
 ### Java
 
 - [Connection Factory](java/connection_factory.md)
-- [Extends](java/ExtendsImplements.md)
+- [Extends vs Implements](java/ExtendsImplements.md)
 - [Java Abstract Classes and Methods](java/abstract.md)
 - [S.O.L.I.D.](java/S.O.L.I.D.md)
 - [Var: a new feature from Java 10](java/var.md)
