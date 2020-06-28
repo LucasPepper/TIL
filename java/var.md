@@ -4,7 +4,7 @@ It's a new reserved word, that permits type inference for local variables.
 
 This feature is provided to enhance the Java language and extend type inference to declarations of local variables with initializers. This reduces the boilerplate code required, while still maintaining Java’s compile time type checking.
 
-Remembering that Java is a Strong Typing and Static language, that is, we cannot initialize a variable with one type and change it to another, without a cast. The types are verified in Compilation time, not in Runtime.
+Remembering that Java is a Strong Typed and Static language, that is, we cannot initialize a variable with one type and change it to another, without a cast. The types are verified in Compilation time, not in Runtime.
 
 Some 'var' examples: (try them using Jshell! It's the Java's REPL enviroment. Just type $ jshell on the terminal)
 
