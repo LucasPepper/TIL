@@ -47,7 +47,7 @@ _18 TILs and counting..._
 - [Dates](java/dates.md)
 - [Extends vs Implements](java/ExtendsImplements.md)
 - [Java Abstract Classes and Methods](java/abstract.md)
-- [S.O.L.I.D.](java/S.O.L.I.D.md)
+- [S.O.L.I.D](java/S.O.L.I.D.md)
 - [Var: a new feature from Java 10](java/var.md)
 
 ### Ohmyzsh

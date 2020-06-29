@@ -4,37 +4,48 @@
 
 In Pandas, there are many of them!
 
-## Describing your dataset:
+## Describing your dataset
+
+```python
+df.head(), df.info(), df.describe(), df.shape, df.values, df.columns, df.index,
 ```
-df.head(), df.info(), df.describe(), df.shape, df.values, df.columns, df.index, 
-```
-## Sorting:
-```
+
+## Sorting
+
+```python
+
 df.sort_values(['column1_name', 'column2_name'], ascending = [True, False])
 
 dogs_ind3.sort_index(level=["color", "breed"], ascending=[True, False])
 ```
-## Subsetting columns and rows:
-```
+
+## Subsetting columns and rows
+
+```python
+
 # Columns
 # 2 ways:
 df[['column1_name', 'column2_name']]                # 1
 
-cols_to_subset = ['column1_name', 'column2_name'] 
+cols_to_subset = ['column1_name', 'column2_name']
 df[cols_to_subset]                                  # 2
 
 # Rows
 df['column3_name'] > 50
 df[df['column3_name'] > 50]
 ```
-## Subsetting based on conditions:
-```
+
+## Subsetting based on conditions
+
+```python
 df[df['column3_name'] == 'text']
 df[df['column4_date'] > '2020-01-01']
 
 ```
-### Multiple Conditions:
-```
+
+### Multiple Conditions
+
+```python
 cond1 = df['column3_name'] == 'text'
 cond2 = df['column4_date'] > '2020-01-01'
 
@@ -42,8 +53,10 @@ df[cond1 & cond2]                                                           # 1
 df[(df['column3_name'] == 'text') & (df['column4_date'] > '2020-01-01')]    # 2
 temp[(temp['date'] >= '2010') & (temp['date'] < '2012')
 ```
-## Using .loc[]:
-```
+
+## Using .loc[]
+
+```python
 # Index temp by country & city
 temperatures_ind = temp.set_index(['country', 'city'])
 
@@ -54,8 +67,9 @@ rows_to_keep = [('Brazil', 'Rio De Janeiro'), ('Pakistan', 'Lahore')]
 temperatures_ind.loc[rows_to_keep])
 ```
 
-## Using .isin():
-```
+## Using .isin()
+
+```python
 has_x_or_y_value = df['column1_name'].isin([10, 20])
 df[has_x_or_y_value]
 ```

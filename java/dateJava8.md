@@ -14,12 +14,13 @@ Seu formato padrão é yyyy-MM-dd
 
 Exemplo com alguns métodos:
 
-```
+```java
+
 import java.time.LocalDate;
 
 public class ExLocalDate {
     public static void main(String[] args) {
-        
+
         LocalDate hoje = LocalDate.now();
 
         System.out.println(hoje);   // 2020-06-29
@@ -41,7 +42,7 @@ Pode ser representada até o nível de nanosegundos. Possui a utilização simil
 
 Ex:
 
-```
+```java
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -49,13 +50,13 @@ import java.time.LocalTime;
 public class TesteLocalDateTime {
 
     public static void main(String[] args) {
-        
+
         LocalDate hoje = LocalDate.now();
         System.out.println(hoje);
 
         LocalDate ontem = hoje.minusDays(1);
         System.out.println(ontem);
-    
+
         LocalTime agora = LocalTime.now();
         System.out.println(agora);
 
@@ -72,14 +73,14 @@ Junção do LocalDate com o LocalTime. Também é uma classe imutável, em que s
 
 Ex:
 
-```
+```java
 
 import java.time.LocalDateTime;
 
 public class TesteLocalDateTime {
 
     public static void main(String[] args) {
-        
+
         LocalDateTime agora = LocalDateTime.now();
         System.out.println(agora);
 
@@ -92,5 +93,7 @@ public class TesteLocalDateTime {
 ```
 
 [Doc LocalTime](https://docs.oracle.com/javase/8/docs/api/java/time/LocalTime.html)
+
 [Doc LocalDate](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html)
+
 [Doc LocalDateTime](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html)

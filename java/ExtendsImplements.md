@@ -1,6 +1,7 @@
 # Extends vs Implements
 
-## Extends 
+## Extends
+
 Usa-se extends quando você deseja aplicar herança á sua classe.
 
 Quando falamos que a classe A estende a classe B, significa que A herda alguns (ou todos) métodos e atributos da classe B.
@@ -9,7 +10,7 @@ Os únicos métodos e atributos que não são herdados são os que possuem o mod
 
 Pode-se aplicar diversos níveis de herança. Por exemplo:
 
-```
+```java
 class A extends B { }
 class B extends C { }
 class C extends D { }
@@ -20,6 +21,7 @@ Ao fazer isso, os membros com modificador de acesso public das classes D, C e B 
 Em Java é possível herdar apenas de uma classe. Não existe herança múltipla.
 
 ## Implements
+
 Usa-se implements quando você deseja implementar uma interface.
 
 Não implementa-se classes. Implementa-se apenas interfaces.
@@ -30,14 +32,17 @@ Uma interface pode conter métodos e constantes. Constantes em Java são definid
 
 **Os métodos de uma interface não tem corpo. Eles tem apenas a sua definição.** Ex:
 
-```
+```java
+
 public interface Imprimivel {
     public void imprime();
 }
 ```
+
 Pode-se também aplicar herança entre interfaces (exclusivamente):
 
-```
+```java
+
 public interface Monstro {
     public void ameacar();
 }
@@ -51,7 +56,7 @@ public class Godzilla implements MonstroPerigoso {
     public void ameacar() {
         //implementação
     }
-    
+
     @Override
     public void destruir() {
         //implementação
@@ -63,7 +68,8 @@ Adendo: a keyword extends é usada para quando um tipo (classe ou interface) é 
 
 Possibilidades de uso das keywords:
 
-```
+```java
+
 class Classe {}
 class SubClasse extends Classe {}
 
@@ -72,7 +78,8 @@ interface SubInterface extends Interface {}
 
 class SubClasse2 implements Interface {}
 class SubClasse3 extends SubClasse implements Interface {}
-``` 
+
+```
 
 Por a interface nunca possuir implementação não faria sentido que ela em alguma hipótese tenha um método ou atributo que somente ela use (privado), pois tudo que a interface faz é declarar métodos e atributos para que seja implementados por classes.
 

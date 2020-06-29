@@ -1,6 +1,7 @@
 # Connection Factory
 
-```
+```java
+
 public class ConnectionFactory {
     public Connection getConnection() {
         try {
@@ -11,4 +12,5 @@ public class ConnectionFactory {
         }
     }
 }
+
 ```

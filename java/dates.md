@@ -14,7 +14,7 @@ Dica: utilizar em conjunto com *System.currentTimeMillis()*
 
 Ex:
 
-```
+```java
 
 import java.util.Date;
 
@@ -28,17 +28,17 @@ public class Exemplo001 {
 
 ```
 
-![Métodos Date](https://imgur.com/a/HFnBrAs)
+![Métodos Date](https://i.imgur.com/wBwKklug.png)
 
 Ex:
 
-```
+```java
 
 import java.util.Date;
 
 public class TesteDate {
     public static void main(String[] args) {
-        
+
         Date dataPassado = new Date(1513648741200L);
 
         System.out.println(dataPassado);

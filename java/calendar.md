@@ -12,7 +12,7 @@ Uma vantagem é a grande quantidade de informações que essa classe retorna, co
 
 Ex:
 
-```
+```java
 
 import java.util.Calendar;
 
@@ -38,29 +38,29 @@ public class Exemplo001 {
 
 Dica: é interessante formatar a impressão das datas. Existem vários prefixos, utilizando o printf:
 
-```
+```java
 
 import java.util.Calendar;
 
 public class TesteDate {
     public static void main(String[] args) {
-        
+
         Calendar agora = Calendar.getInstance();
         System.out.println("Data corrente: " + agora.getTime());
 
-        // c	Standard date and time string formatted as day month date hh::mm:ss tzone year
+        // c Standard date and time string formatted as day month date hh::mm:ss tzone year
         System.out.printf("%tc\n", agora);
 
-        // F	year-month-day
+        // F year-month-day
         System.out.printf("%tF\n", agora);
 
-        // D	month/day/year
+        // D month/day/year
         System.out.printf("%tD\n", agora);
 
-        // r	hh:mm (12-hour format)
+        // r hh:mm (12-hour format)
         System.out.printf("%tr\n", agora);
 
-        // T	hh:mm:ss (24-hour format)
+        // T hh:mm:ss (24-hour format)
         System.out.printf("%tT\n", agora);
     }
 }
