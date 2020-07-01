@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_18 TILs and counting..._
+_15 TILs and counting..._
 
 ---
 
@@ -40,11 +40,8 @@ _18 TILs and counting..._
 
 ### Java
 
-- [Calendar](java/calendar.md)
+- [Comparator e Comparable (Interfaces)](java/Comparator_Comparable.md)
 - [Connection Factory](java/connection_factory.md)
-- [Datas no Java 8+](java/dateJava8.md)
-- [DateFormat](java/DateFormat.md)
-- [Dates](java/dates.md)
 - [Extends vs Implements](java/ExtendsImplements.md)
 - [Java Abstract Classes and Methods](java/abstract.md)
 - [S.O.L.I.D](java/S.O.L.I.D.md)
