@@ -1,8 +1,8 @@
 # Comparator e Comparable (Interfaces)
 
-São utilizados para comparar dois objetos diferentes. Comparam objetos que não são diretamente comparáveis, ou seja, de tipos diferentes, em que o método Collections.sort() não funcionaria.
+Interfaces utilizadas para comparar dois objetos diferentes. Comparam objetos que não são diretamente comparáveis, ou seja, de tipos diferentes, em que o método Collections.sort() não funcionaria sem tais interfaces.
 
-Erro ao tentar utilizar o Collections.sort() em uma classe que não é nativamente implementada:
+Erro ao tentar utilizar o Collections.sort() em um objeto complexo (que não é nativamente implementado, como Strings, Lists, etc):
 
 ```
 The method sort(List<T>) in the type Collections
@@ -10,7 +10,7 @@ The method sort(List<T>) in the type Collections
 
 ```
 
-São úteis para ordenar dados pertencentes à classes criadas pelo usuário, por exemplo, sem ter que re-implementar todo o código de ordenação para adaptá-lo aos critérios desejados. Desta forma, fica mais fácil atender ao princípio Open Closed do [S.O.L.I.D.](https://github.com/LucasPepper/TIL/blob/master/java/S.O.L.I.D.md) (Objetos devem estar **abertos para extensão**, mas **fechados para modificação**)
+São úteis para ordenar dados pertencentes à **classes criadas pelo usuário**, por exemplo, sem ter que re-implementar todo o código de ordenação para adaptá-lo aos critérios desejados. Desta forma, fica mais fácil atender ao princípio Open Closed do [S.O.L.I.D.](https://github.com/LucasPepper/TIL/blob/master/java/S.O.L.I.D.md) (Objetos devem estar **abertos para extensão**, mas **fechados para modificação**)
 
 ## Comparable
 
