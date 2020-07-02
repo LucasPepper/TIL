@@ -1,4 +1,4 @@
-# TIL - Today I Learned
+# TIL
 
 > Today I Learned
 
@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_23 TILs and counting..._
+_24 TILs and counting..._
 
 ---
 
@@ -50,6 +50,7 @@ _23 TILs and counting..._
 - [Extends vs Implements](java/ExtendsImplements.md)
 - [Java Abstract Classes and Methods](java/abstract.md)
 - [Map](java/Map.md)
+- [Optionals](java/Optionals.md)
 - [Queue](java/Queue.md)
 - [S.O.L.I.D](java/S.O.L.I.D.md)
 - [Set](java/Set.md)
