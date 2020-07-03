@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_24 TILs and counting..._
+_25 TILs and counting..._
 
 ---
 
@@ -54,6 +54,7 @@ _24 TILs and counting..._
 - [Queue](java/Queue.md)
 - [S.O.L.I.D](java/S.O.L.I.D.md)
 - [Set](java/Set.md)
+- [Stream API](java/StreamAPI.md)
 - [Var: a new feature from Java 10](java/var.md)
 
 ### Ohmyzsh
