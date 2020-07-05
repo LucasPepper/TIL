@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_26 TILs and counting..._
+_27 TILs and counting..._
 
 ---
 
@@ -55,6 +55,7 @@ _26 TILs and counting..._
 - [S.O.L.I.D](java/S.O.L.I.D.md)
 - [Set](java/Set.md)
 - [Spring Boot](java/SpringBoot.md)
+- [Spring Web MVC](java/SpringWebMVC.md)
 - [Stream API](java/StreamAPI.md)
 - [Var: a new feature from Java 10](java/var.md)
 
