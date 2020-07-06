@@ -92,6 +92,18 @@ public class TesteLocalDateTime {
 
 ```
 
+## DateTimeFormatter
+
+Para printar utilizando LocalDate:
+
+```java
+import java.time.format.DateTimeFormatter;
+
+LocalDate localDate = LocalDate.now();  // For reference
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd LLLL yyyy");
+String formattedString = localDate.format(formatter);
+```
+
 [Doc LocalTime](https://docs.oracle.com/javase/8/docs/api/java/time/LocalTime.html)
 
 [Doc LocalDate](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html)
