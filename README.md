@@ -7,13 +7,14 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_27 TILs and counting..._
+_28 TILs and counting..._
 
 ---
 
 ### Categories
 
 * [Md](#MD)
+* [Algorithms](#algorithms)
 * [Clojure](#clojure)
 * [Data_science](#data_science)
 * [Java](#java)
@@ -26,6 +27,10 @@ _27 TILs and counting..._
 ### Md
 
 - [Tips for Formatting MD](MD/formatting_markdown.md)
+
+### Algorithms
+
+- [Backtracking](algorithms/backtracking.md)
 
 ### Clojure
 
