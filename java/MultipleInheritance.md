@@ -98,7 +98,7 @@ class Test extends Parent1, Parent2
 
 Multiple inheritance is not supported by Java using classes, handling the complexity that causes due to multiple inheritance is very complex. It creates problem during various operations like casting, constructor chaining etc and the above all reason is that there are very few scenarios on which we actually need multiple inheritance, so better to omit it for keeping the things simple and straightforward.
 
-### How are above problems handled for Default Methods and Interfaces
+### How the above problems are handled for Default Methods and Interfaces
 
 Java 8 supports default methods where interfaces can provide default implementation of methods. And a class can implement two or more interfaces. In case both the implemented interfaces contain default methods with same method signature, the implementing class should explicitly specify which default method is to be used or it should override the default method.
 
