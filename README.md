@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_28 TILs and counting..._
+_30 TILs and counting..._
 
 ---
 
@@ -55,8 +55,10 @@ _28 TILs and counting..._
 - [Extends vs Implements](java/ExtendsImplements.md)
 - [Java Abstract Classes and Methods](java/abstract.md)
 - [Map](java/Map.md)
+- [Multiple Inheritance](java/MultipleInheritance.md)
 - [Optionals](java/Optionals.md)
 - [Queue](java/Queue.md)
+- [REST JAX - RS](java/JAX-RS.md)
 - [S.O.L.I.D](java/S.O.L.I.D.md)
 - [Set](java/Set.md)
 - [Spring Boot](java/SpringBoot.md)
