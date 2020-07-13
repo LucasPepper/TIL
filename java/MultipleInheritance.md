@@ -186,4 +186,4 @@ Output:
 
 Default GPI
 
-[Source](https://www.geeksforgeeks.org/java-and-multiple-inheritance/)
+[Source](https://www.geeksforgeeks.org/java-and-multiple-inheritance/
