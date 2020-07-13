@@ -7,12 +7,13 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_30 TILs and counting..._
+_32 TILs and counting..._
 
 ---
 
 ### Categories
 
+* [Javascript](#JavaScript)
 * [Md](#MD)
 * [Algorithms](#algorithms)
 * [Clojure](#clojure)
@@ -23,6 +24,10 @@ _30 TILs and counting..._
 * [Typescript](#typescript)
 
 ---
+
+### Javascript
+
+- [Estrutura de dados e tipos](JavaScript/basics.md)
 
 ### Md
 
@@ -53,6 +58,7 @@ _30 TILs and counting..._
 - [DateFormat](java/DateFormat.md)
 - [Dates](java/Dates.md)
 - [Extends vs Implements](java/ExtendsImplements.md)
+- [HATEOAS](java/hateoas.md)
 - [Java Abstract Classes and Methods](java/abstract.md)
 - [Map](java/Map.md)
 - [Multiple Inheritance](java/MultipleInheritance.md)
