@@ -7,12 +7,13 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_32 TILs and counting..._
+_33 TILs and counting..._
 
 ---
 
 ### Categories
 
+* [Angular](#Angular)
 * [Javascript](#JavaScript)
 * [Md](#MD)
 * [Algorithms](#algorithms)
@@ -24,6 +25,10 @@ _32 TILs and counting..._
 * [Typescript](#typescript)
 
 ---
+
+### Angular
+
+- [The Zen of AngularJS](Angular/Zen.md)
 
 ### Javascript
 
