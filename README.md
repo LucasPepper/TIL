@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_34 TILs and counting..._
+_36 TILs and counting..._
 
 ---
 
@@ -66,7 +66,9 @@ _34 TILs and counting..._
 - [HATEOAS](java/hateoas.md)
 - [Jackson - JSON](java/Jackson-JSON.md)
 - [Java Abstract Classes and Methods](java/abstract.md)
+- [Java HTTP Native Client](java/Http(Native).md)
 - [Map](java/Map.md)
+- [Mock](java/Mocks.md)
 - [Multiple Inheritance](java/MultipleInheritance.md)
 - [Optionals](java/Optionals.md)
 - [Queue](java/Queue.md)
