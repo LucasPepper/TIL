@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_36 TILs and counting..._
+_37 TILs and counting..._
 
 ---
 
@@ -63,6 +63,7 @@ _36 TILs and counting..._
 - [DateFormat](java/DateFormat.md)
 - [Dates](java/Dates.md)
 - [Extends vs Implements](java/ExtendsImplements.md)
+- [Functional](java/Functional.md)
 - [HATEOAS](java/hateoas.md)
 - [Jackson - JSON](java/Jackson-JSON.md)
 - [Java Abstract Classes and Methods](java/abstract.md)
