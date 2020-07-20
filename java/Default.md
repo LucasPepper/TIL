@@ -2,6 +2,8 @@
 
 Os métodos *default* introduzidos no Java 8 são uma nova forma de fazer implementações de métodos dentro de *interfaces*, o que permite mais flexibilidade aos API designers do Java. Esta é uma forma de contornar a limitação de não ser possível a Herança Múltipla no Java, mas sim a implementação de múltiplas interfaces.
 
+Reforçando a ideia: para se beneficiar do [Paradigma Funcional](https://github.com/LucasPepper/TIL/blob/master/java/Functional.md) (Java 8), é necessária a criação de uma Interface Funcional, que possui apenas um método abstrato e podem ou não ter outros métodos *default*.
+
 Exemplos [DevMedia](https://www.devmedia.com.br/metodos-default-no-java/33012):
 
 ```java
