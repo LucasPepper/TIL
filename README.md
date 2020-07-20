@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_37 TILs and counting..._
+_38 TILs and counting..._
 
 ---
 
@@ -62,6 +62,7 @@ _37 TILs and counting..._
 - [Datas no Java 8+](java/DateJava8.md)
 - [DateFormat](java/DateFormat.md)
 - [Dates](java/Dates.md)
+- [Default](java/Default.md)
 - [Extends vs Implements](java/ExtendsImplements.md)
 - [Functional](java/Functional.md)
 - [HATEOAS](java/hateoas.md)
