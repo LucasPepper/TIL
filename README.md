@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_38 TILs and counting..._
+_39 TILs and counting..._
 
 ---
 
@@ -69,6 +69,7 @@ _38 TILs and counting..._
 - [Jackson - JSON](java/Jackson-JSON.md)
 - [Java Abstract Classes and Methods](java/abstract.md)
 - [Java HTTP Native Client](java/Http(Native).md)
+- [Lambda Functions](java/Lambda.md)
 - [Map](java/Map.md)
 - [Mock](java/Mocks.md)
 - [Multiple Inheritance](java/MultipleInheritance.md)
