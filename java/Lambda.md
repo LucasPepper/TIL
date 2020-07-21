@@ -92,7 +92,7 @@ Perceba que foi passada a função *function* como parâmetro. Percebe também o
 
 A interface *Predicate* tem como característica o recebimento de uma expressão lógica, que é avaliada com o método *test*, retornando true ou false.
 
-Diferenças-chave do *Predicate* para *IntFunction* ou outras interfaces que são utilizadas em conjunto com Funções Lambda:
+Diferenças-chave do *Predicate* para *IntFunction* ou outras interfaces (Package function) que são utilizadas em conjunto com Funções Lambda:
 
 * Tipo e número do(s) Parâmetro(s) de entrada;
 
