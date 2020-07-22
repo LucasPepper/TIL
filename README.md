@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_40 TILs and counting..._
+_41 TILs and counting..._
 
 ---
 
@@ -74,6 +74,7 @@ _40 TILs and counting..._
 - [Mock](java/Mocks.md)
 - [Multiple Inheritance](java/MultipleInheritance.md)
 - [Optionals](java/Optionals.md)
+- [ParallelStream](java/ParallelStream.md)
 - [Queue](java/Queue.md)
 - [REST JAX - RS](java/JAX-RS.md)
 - [S.O.L.I.D](java/S.O.L.I.D.md)
