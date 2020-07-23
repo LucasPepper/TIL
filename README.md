@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_41 TILs and counting..._
+_42 TILs and counting..._
 
 ---
 
@@ -66,6 +66,7 @@ _41 TILs and counting..._
 - [Extends vs Implements](java/ExtendsImplements.md)
 - [Functional](java/Functional.md)
 - [HATEOAS](java/hateoas.md)
+- [JUnit - Unit Tests](java/Junit.md)
 - [Jackson - JSON](java/Jackson-JSON.md)
 - [Java Abstract Classes and Methods](java/abstract.md)
 - [Java HTTP Native Client](java/Http(Native).md)
