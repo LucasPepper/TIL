@@ -157,3 +157,5 @@ public class ProductRepository {
 
     // ...
 }
+
+[Artigo SOLID por John Au-Yeung](https://dev.to/aumayeung/javascript-clean-code-solid-8i2)
