@@ -6,7 +6,7 @@ Recomenda-se utilizar os testes unitários em duas situações principais: no Co
 
 ## Como adicionar o JUnit ao seu Projeto
 
-Em casos de Projetos criados com o Maven/Gradle, geralmente são criados pacotes separados de código-fonte (produção) e Teste. 
+Em casos de Projetos criados com o Maven/Gradle, geralmente são criados pacotes separados de código-fonte (produção) e Teste.
 
 Essa separação, além de deixar o projeto mais organizado, também permite que quando ocorra alguma build, toda a bateria de testes seja executada. Além do mais, são gerados relatórios dos testes permitindo uma análise posterior.
 
@@ -97,7 +97,7 @@ public class AssertTest {
         assertSame(aNumber, aNumber);
     }
 
-    // Outro Assertion muito utilizado por sua flexibilidade: assertThat() 
+    // Outro Assertion muito utilizado por sua flexibilidade: assertThat()
 }
 ```
 
@@ -162,5 +162,139 @@ Semelhante à estrutura das Expected Exceptions, com a adição de Try/catch
     }
 ```
 
+## Frameworks/Libs adicionais para Unit Testing
+
+### Mockito - Framework
+
+[Mocks](https://github.com/LucasPepper/TIL/blob/master/java/Mocks.md) são utilizados para simular/dublar comportamentos de algum método/classe, em casos de testes.
+
+Para utilizar o [Mockito](https://site.mockito.org/), fazer o download (JAR) da versão desejada e de suas dependências. O MvnRepository lista 3 dependências para o [Mockito-Core]((https://mvnrepository.com/artifact/org.mockito/mockito-core/3.4.4)): byte-buddy, byte-buddy-agent e objenesis.
+
+OBS: também é necessário declarar essas dependências no arquivo build do projeto. O código é fornecido na própria página do download da dependência. Exemplo:
+
+Maven:
+
+```
+<!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-core</artifactId>
+    <version>3.4.4</version>
+    <scope>test</scope>
+</dependency>
+
+```
+
+### Hamcrest - Framework
+
+Segundo o wikipedia: "Hamcrest is a framework that assists writing software tests in the Java programming language. It supports creating customized assertion **matchers**, **allowing match rules to be defined declaratively**. These matchers have uses in unit testing frameworks such as JUnit and jMock."
+
+[Download Hamcrest](http://hamcrest.org/JavaHamcrest/distributables)
+
+Ex Matchers:
+
+```java
+import org.hamcrest.Matchers;
+import org.hamcrest.beans.HasProperty;
+import org.hamcrest.object.HasToString;
+import org.junit.Test;
+
+public class MatcherTest {
+
+    @Test
+    public void givenBean_checkToString(){
+        Person person=new Person("Barrack", "Obama");
+        String str=person.toString();
+        assertThat(person, HasToString.hasToString(str));
+    }
+
+    @Test
+    public void givenBean_checkPropertyExists() {
+    Person person=new Person("Barrack", "Obama");
+        assertThat(person, HasProperty.hasProperty("name"));
+    }
+
+
+    @Test
+    public void givenCollection_checkEmpty() {
+        List<String> emptyList = new ArrayList<String>();
+        assertThat(emptyList, Matchers.empty());
+    }
+
+    @Test
+    public void givenAnInteger_checkGreater() {
+        assertThat(1, Matchers.greaterThan(0));
+    }
+
+    @Test
+    public void givenString_checkNull() {
+        String str = null;
+        assertThat(str, Matchers.isEmptyOrNullString());
+    }
+}
+
+```
+
+### AssertJ - Lib
+
+[AssertJ](https://assertj.github.io/doc/) is a Java library providing a rich set of assertions, truly helpful error messages, improves test code readability and is designed to be super easy to use within your favorite IDE.
+
+<http://www.javadoc.io/doc/org.assertj/assertj-core/> is the latest version of assertj core javadoc, each assertion is explained, most of them with code examples so be sure to check it if you want to know what a specific assertion does.
+
+Exemplos de Assertions utilizando o AssertJ:
+
+```java
+// entry point for all assertThat methods and utility methods (e.g. entry)
+import static org.assertj.core.api.Assertions.*;
+
+// basic assertions
+assertThat(frodo.getName()).isEqualTo("Frodo");
+assertThat(frodo).isNotEqualTo(sauron);
+
+// chaining string specific assertions
+assertThat(frodo.getName()).startsWith("Fro")
+                           .endsWith("do")
+                           .isEqualToIgnoringCase("frodo");
+
+// collection specific assertions (there are plenty more)
+// in the examples below fellowshipOfTheRing is a List<TolkienCharacter>
+assertThat(fellowshipOfTheRing).hasSize(9)
+                               .contains(frodo, sam)
+                               .doesNotContain(sauron);
+
+// as() is used to describe the test and will be shown before the error message
+assertThat(frodo.getAge()).as("check %s's age", frodo.getName()).isEqualTo(33);
+
+// exception assertion, standard style ...
+assertThatThrownBy(() -> { throw new Exception("boom!"); }).hasMessage("boom!");
+// ... or BDD style
+Throwable thrown = catchThrowable(() -> { throw new Exception("boom!"); });
+assertThat(thrown).hasMessageContaining("boom");
+
+// using the 'extracting' feature to check fellowshipOfTheRing character's names
+assertThat(fellowshipOfTheRing).extracting(TolkienCharacter::getName)
+                               .doesNotContain("Sauron", "Elrond");
+
+// extracting multiple values at once grouped in tuples
+assertThat(fellowshipOfTheRing).extracting("name", "age", "race.name")
+                               .contains(tuple("Boromir", 37, "Man"),
+                                         tuple("Sam", 38, "Hobbit"),
+                                         tuple("Legolas", 1000, "Elf"));
+
+// filtering a collection before asserting
+assertThat(fellowshipOfTheRing).filteredOn(character -> character.getName().contains("o"))
+                               .containsOnly(aragorn, frodo, legolas, boromir);
+
+// combining filtering and extraction (yes we can)
+assertThat(fellowshipOfTheRing).filteredOn(character -> character.getName().contains("o"))
+                               .containsOnly(aragorn, frodo, legolas, boromir)
+                               .extracting(character -> character.getRace().getName())
+                               .contains("Hobbit", "Elf", "Man");
+
+// and many more assertions: iterable, stream, array, map, dates, path, file, numbers, predicate, optional ...
+```
+
 [Add testing libraries - IntelliJ](https://www.jetbrains.com/help/idea/configuring-testing-libraries.html)
 [JUnit Tutorial - DevMedia](https://www.devmedia.com.br/junit-tutorial/1432)
+[Exemplos de Testes](https://github.com/rtassini/TestesComJava)
+
