@@ -295,6 +295,7 @@ assertThat(fellowshipOfTheRing).filteredOn(character -> character.getName().cont
 ```
 
 [Add testing libraries - IntelliJ](https://www.jetbrains.com/help/idea/configuring-testing-libraries.html)
-[JUnit Tutorial - DevMedia](https://www.devmedia.com.br/junit-tutorial/1432)
-[Exemplos de Testes](https://github.com/rtassini/TestesComJava)
 
+[JUnit Tutorial - DevMedia](https://www.devmedia.com.br/junit-tutorial/1432)
+
+[Exemplos de Testes](https://github.com/rtassini/TestesComJava)
