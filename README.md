@@ -7,7 +7,7 @@ variety of languages and technologies. These are things that don't really
 warrant a full blog post.
 
 
-_43 TILs and counting..._
+_44 TILs and counting..._
 
 ---
 
@@ -15,6 +15,7 @@ _43 TILs and counting..._
 
 * [Angular](#Angular)
 * [Javascript](#JavaScript)
+* [Kotlin](#Kotlin)
 * [Md](#MD)
 * [Algorithms](#algorithms)
 * [Clojure](#clojure)
@@ -33,6 +34,10 @@ _43 TILs and counting..._
 ### Javascript
 
 - [Estrutura de dados e tipos](JavaScript/basics.md)
+
+### Kotlin
+
+- [Kotlin](Kotlin/basics.md)
 
 ### Md
 
