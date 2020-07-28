@@ -13,23 +13,72 @@ _44 TILs and counting..._
 
 ### Categories
 
+* [Algorithms](#Algorithms)
 * [Angular](#Angular)
+* [Clojure](#Clojure)
+* [Data science](#Data Science)
+* [Java](#Java)
 * [Javascript](#JavaScript)
 * [Kotlin](#Kotlin)
 * [Md](#MD)
-* [Algorithms](#algorithms)
-* [Clojure](#clojure)
-* [Data_science](#data_science)
-* [Java](#java)
-* [Ohmyzsh](#ohmyzsh)
-* [Pandas](#pandas)
-* [Typescript](#typescript)
+* [Pandas](#Pandas)
+* [Typescript](#TypeScript)
+* [Zsh](#ZSH)
 
 ---
+
+### Algorithms
+
+- [Backtracking](Algorithms/backtracking.md)
 
 ### Angular
 
 - [The Zen of AngularJS](Angular/Zen.md)
+
+### Clojure
+
+- [4Clojure](Clojure/4clojure_answers.md)
+- [Getting Started](Clojure/getting_started.md)
+
+### Data science
+
+- [MatPlotLib: Scatter Plot](Data Science/mlp_scatter_plot.md)
+- [Maturação de Dados](Data Science/maturação_de_dados.md)
+- [Overfitting](Data Science/overfit.md)
+
+### Java
+
+- [ArrayList vs Vectors](Java/ArrayList_Vectors.md)
+- [Calendar](Java/calendar.md)
+- [Comparator e Comparable (Interfaces)](Java/Comparator_Comparable.md)
+- [Connection Factory](Java/Connection_factory.md)
+- [Datas no Java 8+](Java/DateJava8.md)
+- [DateFormat](Java/DateFormat.md)
+- [Dates](Java/Dates.md)
+- [Default](Java/Default.md)
+- [Extends vs Implements](Java/ExtendsImplements.md)
+- [Functional](Java/Functional.md)
+- [HATEOAS](Java/hateoas.md)
+- [JUnit - Unit Tests](Java/Junit.md)
+- [Jackson - JSON](Java/Jackson-JSON.md)
+- [Java Abstract Classes and Methods](Java/abstract.md)
+- [Java HTTP Native Client](Java/Http(Native).md)
+- [Lambda Functions](Java/Lambda.md)
+- [Map](Java/Map.md)
+- [Mock](Java/Mocks.md)
+- [Multiple Inheritance](Java/MultipleInheritance.md)
+- [Optionals](Java/Optionals.md)
+- [ParallelStream](Java/ParallelStream.md)
+- [Queue](Java/Queue.md)
+- [REST JAX - RS](Java/JAX-RS.md)
+- [S.O.L.I.D](Java/S.O.L.I.D.md)
+- [Set](Java/Set.md)
+- [Spring Boot](Java/SpringBoot.md)
+- [Spring Web MVC](Java/SpringWebMVC.md)
+- [Stream API](Java/StreamAPI.md)
+- [TDD](Java/TDD.md)
+- [Threads](Java/Threads.md)
+- [Var: a new feature from Java 10](Java/var.md)
 
 ### Javascript
 
@@ -43,66 +92,17 @@ _44 TILs and counting..._
 
 - [Tips for Formatting MD](MD/formatting_markdown.md)
 
-### Algorithms
-
-- [Backtracking](algorithms/backtracking.md)
-
-### Clojure
-
-- [4Clojure](clojure/4clojure_answers.md)
-- [Getting Started](clojure/getting_started.md)
-
-### Data_science
-
-- [MatPlotLib: Scatter Plot](data_science/mlp_scatter_plot.md)
-- [Maturação de Dados](data_science/maturação_de_dados.md)
-- [Overfitting](data_science/overfit.md)
-
-### Java
-
-- [ArrayList vs Vectors](java/ArrayList_Vectors.md)
-- [Calendar](java/calendar.md)
-- [Comparator e Comparable (Interfaces)](java/Comparator_Comparable.md)
-- [Connection Factory](java/Connection_factory.md)
-- [Datas no Java 8+](java/DateJava8.md)
-- [DateFormat](java/DateFormat.md)
-- [Dates](java/Dates.md)
-- [Default](java/Default.md)
-- [Extends vs Implements](java/ExtendsImplements.md)
-- [Functional](java/Functional.md)
-- [HATEOAS](java/hateoas.md)
-- [JUnit - Unit Tests](java/Junit.md)
-- [Jackson - JSON](java/Jackson-JSON.md)
-- [Java Abstract Classes and Methods](java/abstract.md)
-- [Java HTTP Native Client](java/Http(Native).md)
-- [Lambda Functions](java/Lambda.md)
-- [Map](java/Map.md)
-- [Mock](java/Mocks.md)
-- [Multiple Inheritance](java/MultipleInheritance.md)
-- [Optionals](java/Optionals.md)
-- [ParallelStream](java/ParallelStream.md)
-- [Queue](java/Queue.md)
-- [REST JAX - RS](java/JAX-RS.md)
-- [S.O.L.I.D](java/S.O.L.I.D.md)
-- [Set](java/Set.md)
-- [Spring Boot](java/SpringBoot.md)
-- [Spring Web MVC](java/SpringWebMVC.md)
-- [Stream API](java/StreamAPI.md)
-- [TDD](java/TDD.md)
-- [Threads](java/Threads.md)
-- [Var: a new feature from Java 10](java/var.md)
-
-### Ohmyzsh
-
-- [Customizing the Terminal using zsh](ohmyzsh/customizing_terminal.md)
-
 ### Pandas
 
-- [Useful Description and Selection Methods in Pandas](pandas/useful_methods.md)
+- [Useful Description and Selection Methods in Pandas](Pandas/useful_methods.md)
 
 ### Typescript
 
-- [Definition](typescript/definition.md)
+- [Definition](TypeScript/definition.md)
+
+### Zsh
+
+- [Customizing the Terminal using zsh](ZSH/customizing_terminal.md)
 
 ## Usage
 
