@@ -16,7 +16,7 @@ _44 TILs and counting..._
 * [Algorithms](#Algorithms)
 * [Angular](#Angular)
 * [Clojure](#Clojure)
-* [Data science](#Data Science)
+* [Datascience](#DataScience)
 * [Java](#Java)
 * [Javascript](#JavaScript)
 * [Kotlin](#Kotlin)
@@ -40,11 +40,11 @@ _44 TILs and counting..._
 - [4Clojure](Clojure/4clojure_answers.md)
 - [Getting Started](Clojure/getting_started.md)
 
-### Data science
+### Datascience
 
-- [MatPlotLib: Scatter Plot](Data Science/mlp_scatter_plot.md)
-- [Maturação de Dados](Data Science/maturação_de_dados.md)
-- [Overfitting](Data Science/overfit.md)
+- [MatPlotLib: Scatter Plot](DataScience/mlp_scatter_plot.md)
+- [Maturação de Dados](DataScience/maturação_de_dados.md)
+- [Overfitting](DataScience/overfit.md)
 
 ### Java
 
